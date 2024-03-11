@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">NovaSentinel</string>
+
+
+
+//nombres menus
+    <string name="Boton">Boton</string>
+    <string name="Perfil">Perfil</string>
+    <string name="Acoso">Acoso</string>
+    <string name="Cerrar">Cerrar Sesion</string>
+
+    //nombres perfil
+    <string name="NombreP">Nombre</string>
+    <string name="ApellidoP">Apellido</string>
+    <string name="IdentificacionP">Identificacion</string>
+    <string name="CorreoP">Correo</string>
+    <string name="btn_Historial">Historico de Incidentes</string>
+
+
+
+
+
+</resources>

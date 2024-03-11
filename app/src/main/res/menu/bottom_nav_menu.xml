@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_boton"
+        android:icon="@drawable/icon_boton"
+        android:title="@string/Boton" />
+    <item
+        android:id="@+id/navigation_perfil"
+        android:icon="@drawable/icon_perfil"
+        android:title="@string/Perfil" />
+
+    <item
+        android:id="@+id/navigation_acoso"
+        android:icon="@drawable/icon_acoso"
+        android:title="@string/Acoso" />
+    <item
+        android:id="@+id/navigation_cerrar"
+        android:icon="@drawable/icon_cerrar"
+        android:title="@string/Cerrar" />
+
+</menu>

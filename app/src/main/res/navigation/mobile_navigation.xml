@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_boton">
+
+    <fragment
+        android:id="@+id/navigation_boton"
+        android:name="com.example.novasentinel.ui.boton.BotonFragment"
+        android:label="@string/Boton"
+        tools:layout="@layout/fragment_boton" />
+
+    <fragment
+        android:id="@+id/navigation_perfil"
+        android:name="com.example.novasentinel.ui.perfil.PerfilFragment"
+        android:label="@string/Perfil"
+        tools:layout="@layout/fragment_perfil" />
+
+    <fragment
+        android:id="@+id/navigation_acoso"
+        android:name="com.example.novasentinel.ui.acoso.AcosoFragment"
+        android:label="@string/Acoso"
+        tools:layout="@layout/fragment_acoso" />
+
+    <fragment
+        android:id="@+id/navigation_cerrar"
+        android:name="com.example.novasentinel.ui.cerrar.CerrarFragment"
+        android:label="@string/Cerrar"
+        tools:layout="@layout/fragment_cerrar" />
+</navigation>

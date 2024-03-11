@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoa"
+    tools:context=".ui.acoso.AcosoFragment">
+
+
+    <ScrollView
+        android:layout_width="335dp"
+        android:layout_height="668dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text="¿QUE ES EL ACOSO?"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text="El acoso es un comportamiento no deseado y agresivo que se repite con la intención de intimidar, degradar o humillar a la persona afectada.\n"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:id="@+id/acoso"
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:gravity="center"
+                android:src="@drawable/acososexual"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.837" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text="\nTIPOS DE ACOSO\n"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:text="Acoso Físico"
+                android:textSize="19sp" />
+
+            <ImageView
+                android:id="@+id/acosof"
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:gravity="center"
+                android:src="@drawable/acosofisico"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.837" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text="Involucra contacto físico no deseado o agresivo, como empujones, golpes, tocamientos no deseados, entre otros. Puede ocurrir en lugares públicos, en el hogar, en el trabajo y en entornos escolares.\n"
+                android:textSize="17sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:text="\nAcoso Verbal\n"
+                android:textSize="19sp" />
+
+            <ImageView
+                android:id="@+id/acosov"
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:gravity="center"
+                android:src="@drawable/abusoverbal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.837" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text="Implica insultos, comentarios humillantes, burlas, amenazas o lenguaje intimidante dirigido a una persona. Puede ocurrir en cualquier lugar, desde el transporte público hasta en el trabajo o en instituciones educativas.\n"
+                android:textSize="17sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:text="\nAcoso Social\n"
+                android:textSize="19sp" />
+
+            <ImageView
+                android:id="@+id/acososs"
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:gravity="center"
+                android:src="@drawable/acososocial"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.837" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text="Ocurre cuando se excluye, se difama o se ridiculiza a una persona en su entorno social. Puede incluir chismes, difamación en redes sociales, exclusión de grupos, entre otros.\n"
+                android:textSize="17sp" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text="\nRECONOCIENDO EL ACOSO\n"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+
+
+            <ImageView
+                android:id="@+id/reconociendo"
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:gravity="center"
+                android:src="@drawable/lesiones"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.837" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text="\nEs fundamental reconocer los signos de acoso en Colombia para tomar medidas efectivas. Algunos indicadores pueden ser:\n"
+                android:textSize="17sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:text="\nCambios de Comportamiento\n"
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text="Si una persona muestra cambios significativos en su comportamiento, como ansiedad, depresión, miedo o retraimiento social, podría ser víctima de acoso.\n"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:text="\nLesiones Físicas\n"
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text="En el caso del acoso físico, las lesiones inexplicables o recurrentes pueden ser un signo claro de acoso.\n"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:text="\nHostigamiento Verbal"
+                android:textSize="19sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text="Insultos constantes, burlas o amenazas verbales pueden indicar acoso verbal\n"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:text="Exclusión Social"
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text=" Si una persona es constantemente excluida de grupos sociales, se le ignora o se le trata de manera despectiva, podría estar siendo víctima de acoso social."
+                android:textSize="17sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text="LUGARES Y MOMENTOS DONDE SUELEN OCURRIR\n"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:text="Acoso en el Trabajo\n"
+                android:textSize="19sp" />
+
+            <ImageView
+                android:id="@+id/trabajo"
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:gravity="center"
+                android:src="@drawable/oficina"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.837" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text="\nEl acoso laboral es un problema serio en Colombia. Según un informe de la OIT, aproximadamente el 18% de los trabajadores en Colombia han experimentado acoso laboral."
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:text="Acoso Escolar"
+                android:textSize="19sp" />
+
+
+
+            <ImageView
+                android:id="@+id/escolar"
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:gravity="center"
+                android:src="@drawable/colegio"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.837" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text="También conocido como bullying, el acoso escolar es común en las instituciones educativas colombianas. Según el Ministerio de Educación de Colombia, alrededor del 15% de los estudiantes en Colombia reportan haber sido víctimas de bullying.\n"
+                android:textSize="17sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:text="Acoso en el Transporte Público"
+                android:textSize="19sp" />
+
+
+
+            <ImageView
+                android:id="@+id/transporte"
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:gravity="center"
+                android:src="@drawable/transporte"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.837" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text=" El transporte público en Colombia puede ser un lugar donde ocurre el acoso, tanto físico como verbal. El 48% de las mujeres en Colombia han experimentado acoso sexual en el transporte público, según una encuesta realizada por la ONG Plan Internacional.\n"
+                android:textSize="17sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:text="Acoso en Redes Sociales\n"
+                android:textSize="19sp" />
+
+
+
+            <ImageView
+                android:id="@+id/redes"
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:gravity="center"
+                android:src="@drawable/redes"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.837" />
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text="Con el aumento del uso de redes sociales, el ciberacoso también es un problema. Según el Ministerio de Tecnologías de la Información y las Comunicaciones de Colombia, más del 50% de los adolescentes colombianos han sido víctimas de ciberacoso."
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text="MEDIDAS A TOMAR"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:text="Denuncia Formal\n"
+                android:textSize="19sp" />
+
+
+
+            <ImageView
+                android:id="@+id/ley"
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:gravity="center"
+                android:src="@drawable/ley"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.837" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text="\nEn el caso del acoso laboral, denunciarlo ante el Ministerio de Trabajo. Para el acoso escolar, reportarlo ante la institución educativa y/o la Secretaría de Educación. Para el acoso cibernético, denunciarlo ante la Policía Nacional y las plataformas en línea correspondientes."
+                android:textSize="17sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:text="\nBuscar Apoyo Psicológico"
+                android:textSize="19sp" />
+
+
+
+            <ImageView
+                android:id="@+id/psicologico"
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:gravity="center"
+                android:src="@drawable/psicologico"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.837" />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text="\nEl acoso puede tener un impacto emocional significativo. Buscar apoyo de un psicólogo puede ser crucial para manejar el estrés y las emociones asociadas."
+                android:textSize="17sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:text="\nAsesoramiento Legal"
+                android:textSize="19sp" />
+
+
+
+            <ImageView
+                android:id="@+id/legal"
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:gravity="center"
+                android:src="@drawable/legal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.837" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text="\n En casos graves, buscar asesoramiento legal es importante. Abogados especializados en derechos laborales, de familia o cibernéticos pueden ofrecer orientación sobre las opciones legales disponibles."
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text="ESTADISTICAS EN COLOMBIA"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/grafico"
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:gravity="center"
+                android:src="@drawable/grafico"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.837" />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text="
+\n-Según la Encuesta Nacional de Victimización y Percepción de Seguridad Ciudadana de 2020, el 32% de las mujeres en Colombia han sido víctimas de algún tipo de violencia sexual en algún momento de su vida.\n
+
+\n-En cuanto al acoso escolar, según el informe de la Fundación Plan Internacional, el 38% de los estudiantes colombianos ha experimentado algún tipo de acoso escolar.\n
+
+\n-Según la Encuesta Nacional de Salud Escolar, el 30% de los estudiantes reportaron haber sido víctimas de ciberacoso en Colombia.\n"
+                android:textSize="17sp" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#9F715D"
+                android:background="@android:color/white"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text="\nREFERENCIAS\n
+-Ministerio de Tecnologías de la Información y las Comunicaciones de Colombia. (s.f.). Ciberacoso. Recuperado de: https://www.mintic.gov.co/portal/inicio/6146:Bot%C3%B3n%20Nacional%20Ciberacoso
+
+-Ministerio de Educación de Colombia. (s.f.). Estrategia para la prevención, el manejo y el seguimiento del acoso escolar en Colombia. Recuperado de: https://www.mineducacion.gov.co/1759/w3-article-344815.html
+
+-Instituto Nacional de Medicina Legal y Ciencias Forenses de Colombia. (2020). Violencia de Género en Colombia 2019. Recuperado de: https://www.medicinalegal.gov.co/documents/20143/428425/Informe-Violencia-de-G%C3%A9nero-Colombia-2019.pdf
+
+-OIT Colombia. (2019). Nota Informativa: El acoso y la violencia laboral en Colombia. Recuperado de: https://www.ilo.org/sanjose/informacion-por-pais/wcms_737463/lang--es/index.htm
+
+-Plan International Colombia. (2019). Investigación de Seguridad de Niñas y Mujeres en Bogotá, Cali, Cartagena, Medellín y Soacha. Recuperado de: https://plan-international.org/colombia/nuestra-investigacion-seguridad-ninas-mujeres
+
+-Encuesta Nacional de Salud Escolar - Ministerio de Salud y Protección Social. (2017). Recuperado de: https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/INEC/ENCUESTA-NACIONAL-DE-SALUD-ESCOLAR-2016.pdf\n\n"
+                android:textSize="10sp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
