@@ -1,21 +1,42 @@
 <resources>
+
+    //String nombre app
     <string name="app_name">NovaSentinel</string>
 
 
-
-//nombres menus
+    //String menus
     <string name="Boton">Boton</string>
     <string name="Perfil">Perfil</string>
     <string name="Acoso">Acoso</string>
     <string name="Cerrar">Cerrar Sesion</string>
 
-    //nombres perfil
+    //String perfil
     <string name="NombreP">Nombre</string>
     <string name="ApellidoP">Apellido</string>
     <string name="IdentificacionP">Identificacion</string>
     <string name="CorreoP">Correo</string>
     <string name="btn_Historial">Historico de Incidentes</string>
 
+    //String Entrada
+    <string name="CorreoE">Correo</string>
+    <string name="ContraseñaE">Contraseña</string>
+    <string name="Recuerdame">Recuerdame</string>
+    <string name="btn_entrar">Entrar</string>
+    <string name="olvidaste">¿Olvidaste la Contraseña?</string>
+    <string name="registrar">Registrate</string>
+
+    //String Registro
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="identificacion">Identificacion</string>
+    <string name="correoR">Correo</string>
+    <string name="contraseñaC">Contraseña</string>
+    <string name="contraseñaR">Contraseña</string>
+    <string name="btnregistro">REGISTRAR</string>
+    <string name="btn_ya_cuenta">Ya tienes cuenta</string>
+
+    //String Recuperar
+    <string name="btn_volver_inicio">Volver a la pagina de Inicio</string>
 
 
 

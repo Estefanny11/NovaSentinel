@@ -14,7 +14,8 @@
 
     <color name="cafe_claro">#EDDACF</color>
     <color name="cafe_oscuro">#9F715D</color>
-    <color name="blanco">#FFFFFFFF</color>
+    <color name="cafepciked">#9F715D</color>
+    <color name="blanco">#9F715D</color>
 
 
 </resources>

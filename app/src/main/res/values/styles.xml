@@ -19,4 +19,30 @@
     </style>
 
 
+    <!-- Define el nuevo estilo para el DatePickerDialog -->
+    <style name="AppDatePickerDialog" parent="ThemeOverlay.MaterialComponents.Dialog">
+        <item name="android:datePickerStyle">@style/AppDatePickerStyle</item>
+    </style>
+
+    <!-- Estilo personalizado para el DatePicker -->
+    <style name="AppDatePickerStyle" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:colorAccent">#F44336</item>
+
+
+
+    </style>
+
+
+    <style name="AlertDialogTheme" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:colorAccent">@color/cafe_oscuro</item>
+
+
+
+    </style>
+
+
+
+
+
+
 </resources>
